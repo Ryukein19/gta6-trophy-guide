@@ -2,3 +2,4 @@ node_modules/
 out/
 out2/
 .DS_Store
+# Round 2: out/ and out2/ are local build outputs and stay ignored.

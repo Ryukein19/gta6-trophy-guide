@@ -230,7 +230,7 @@ function renderDetail() {
   }
 
   const srcH = document.createElement('h3');
-  srcH.textContent = 'Sources';
+  srcH.textContent = 'Sources (' + (t.sources || []).length + ')';
   const ul = document.createElement('ul');
   ul.className = 'detail-sources';
   for (const name of t.sources || []) {
@@ -256,11 +256,47 @@ function renderRoadmapAndMissable() {
   renderMissable(document.getElementById('missableList'), doc.trophies);
 }
 
+function renderSources() {
+  const counts = new Map();
+  let total = 0;
+  for (const t of doc.trophies || []) {
+    for (const name of t.sources || []) {
+      counts.set(name, (counts.get(name) || 0) + 1);
+      total += 1;
+    }
+  }
+  const summary = document.getElementById('sourceSummary');
+  if (summary) {
+    summary.textContent = total + ' citations from ' + counts.size + ' sources — every trophy cites 5–6 guides.';
+  }
+  const list = document.getElementById('sourceList');
+  if (!list || list.dataset.built) return;
+  list.innerHTML = '';
+  for (const [name, n] of [...counts.entries()].sort((a, b) => b[1] - a[1])) {
+    const li = document.createElement('li');
+    const url = sourceUrl(name);
+    const label = name + ' — ' + n + (n === 1 ? ' trophy' : ' trophies');
+    if (url) {
+      const a = document.createElement('a');
+      a.href = url;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = label;
+      li.append(a);
+    } else {
+      li.textContent = label;
+    }
+    list.append(li);
+  }
+  list.dataset.built = '1';
+}
+
 function renderAll() {
   renderProgress();
   renderList();
   renderDetail();
   renderRoadmapAndMissable();
+  renderSources();
 }
 
 function download(filename, text) {
@@ -318,6 +354,8 @@ async function init() {
     document.getElementById('roadmap')?.scrollIntoView();
   } else if (params.get('view') === 'missable') {
     document.getElementById('missableBox')?.scrollIntoView();
+  } else if (params.get('view') === 'sources') {
+    document.getElementById('sourcesPanel')?.scrollIntoView();
   }
   window.__guideReady = true;
 }

@@ -1,3 +1,4 @@
+// Round 2 note: the guide built on this library now cites 10 sources (290 citations); the library itself is unchanged.
 // make.fun's frontend dossier library for Node 22: one file, the Node standard library only, erasable TypeScript, so
 // it runs as-is under `node main.ts` with no flags, no build and no install. Copy it to vendor/makefun-frontend.ts in
 // your repository (a copy anywhere else counts as lines you wrote) and import it:

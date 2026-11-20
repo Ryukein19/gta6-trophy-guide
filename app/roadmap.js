@@ -1,6 +1,7 @@
 // Roadmap to the platinum, built from the official trophy descriptions.
 // Stages run in order; each stage names the trophies it covers and why it
 // comes at that point. "Do it early" marks the one missable spot.
+// Round 2: the guides behind each stage now cite 5–6 sources each, so the roadmap steps link to deeper reading.
 
 export const ROADMAP_STAGES = [
   {

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Trophy Guide — GTA VI · 55 PS5 Trophies</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Grand Theft Auto VI · PlayStation 5 · 55 trophies</p>
+    <h1>Leonida Trophy Guide</h1>
+    <p class="lede">Every trophy, its official name and description, a guide in our own words with cited sources, a roadmap to the platinum, and a tracker that saves your progress in this browser.</p>
+    <div class="progress-wrap" aria-label="Progress">
+      <div class="progress-bar"><div id="progressFill" class="progress-fill" style="width:0%"></div></div>
+      <p id="progressText" class="progress-text">0 / 55 earned · 0%</p>
+      <p id="gradeCounts" class="grade-counts"></p>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="controls" aria-label="Filters and progress tools">
+    <input id="search" type="search" placeholder="Search trophies by name…" autocomplete="off">
+    <label>Kind
+      <select id="kindFilter">
+        <option value="all">All kinds</option>
+        <option value="story">Story</option>
+        <option value="missable">Missable</option>
+        <option value="collectibles">Collectibles</option>
+        <option value="activities">Activities</option>
+      </select>
+    </label>
+    <label>Grade
+      <select id="gradeFilter">
+        <option value="all">All grades</option>
+        <option value="platinum">Platinum</option>
+        <option value="gold">Gold</option>
+        <option value="silver">Silver</option>
+        <option value="bronze">Bronze</option>
+      </select>
+    </label>
+    <label>Status
+      <select id="earnedFilter">
+        <option value="all">Earned + unearned</option>
+        <option value="earned">Earned only</option>
+        <option value="unearned">Unearned only</option>
+      </select>
+    </label>
+    <label class="spoiler">
+      <input id="spoilerToggle" type="checkbox" checked>
+      Spoiler-free: hide story trophies until earned
+    </label>
+    <button id="exportBtn" type="button">Export progress</button>
+    <label class="import-btn">Import progress
+      <input id="importFile" type="file" accept="application/json">
+    </label>
+  </section>
+
+  <div class="layout">
+    <section class="list-col" aria-label="Trophy checklist">
+      <h2>Checklist <span id="shownCount" class="shown-count"></span></h2>
+      <ul id="trophyList" class="trophy-list"></ul>
+      <p id="emptyMsg" class="empty-msg" hidden>No trophies match these filters.</p>
+    </section>
+    <aside class="detail-col" aria-label="Trophy guide">
+      <div id="detail" class="detail-card">
+        <p class="detail-empty">Select a trophy to see its guide and sources.</p>
+      </div>
+    </aside>
+  </div>
+
+  <section id="roadmap" class="panel" aria-label="Roadmap to the platinum">
+    <h2>Roadmap to the platinum</h2>
+    <p class="panel-note">Do the stages in order. Story first (and the one missable spot in Chapter 1), then stranger missions, then collectibles and exploration, then activities and challenges, then the 100% cleanup. The platinum pops last.</p>
+    <ol id="roadmapList" class="roadmap-list"></ol>
+  </section>
+
+  <section id="missableBox" class="panel warn" aria-label="Missable trophies">
+    <h2>Missable trophies — don't miss these</h2>
+    <p class="panel-note">Only six trophies can be missed. One meditation spot is at Jason's house in Chapter 1; the five stranger chains open in windows tied to story progress. Do them when they appear.</p>
+    <ul id="missableList" class="missable-list"></ul>
+  </section>
+
+  <footer>
+    <p>Sources: Exophase, PSNProfiles, GTAScoop, EGamers.io and GamesFuze trophy lists. GTA VI is unreleased, so the guides are built from the official trophy descriptions plus the mission and chapter structure they name — no walkthrough step is invented. This guide works fully offline and shows no Rockstar logo or artwork.</p>
+  </footer>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>

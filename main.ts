@@ -8,6 +8,7 @@
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 // Serve the guide itself with `node serve.ts` (http://localhost:8080).
 // Round 2: the guide it bundles now cites 290 sources across 10 sites (5–6 per trophy); the build is unchanged.
+// Round 3: the guide it bundles now cites 390 sources across 16 sites (7–8 per trophy), with an audit bar, numbered cited steps, disputes both ways, per-trophy source counts and counters; the build is unchanged.
 
 import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';

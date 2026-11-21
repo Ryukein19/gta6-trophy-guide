@@ -3,6 +3,7 @@
 // The spoiler hides the name and description of story and missable trophies
 // until they are earned; the row stays visible so it can still be ticked.
 // Round 2: every trophy now cites 5–6 sources; sources are shown in the detail panel, not used as a filter.
+// Round 3: every trophy now cites 7–8 sources, and the checklist shows each trophy's source count; sources are still not used as a filter.
 
 export function readFilters(state) {
   return {

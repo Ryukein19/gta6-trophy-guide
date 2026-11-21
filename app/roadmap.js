@@ -2,6 +2,7 @@
 // Stages run in order; each stage names the trophies it covers and why it
 // comes at that point. "Do it early" marks the one missable spot.
 // Round 2: the guides behind each stage now cite 5–6 sources each, so the roadmap steps link to deeper reading.
+// Round 3: the guides behind each stage now cite 7–8 sources each, and the detail panel shows the next trophy in roadmap order.
 
 export const ROADMAP_STAGES = [
   {

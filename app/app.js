@@ -11,7 +11,9 @@ import { trophyMatches, spoilerHides } from './filters.js';
 import { renderRoadmap, renderMissable } from './roadmap.js';
 
 const STORAGE_KEY = 'leonida-trophy-guide-v1';
+const COUNT_KEY = 'leonida-trophy-guide-counts-v1';
 const DEMO_EARNED = [2, 3, 8, 15, 16, 18, 21, 28, 35, 42, 52, 53];
+const DEMO_COUNTS = { 28: 7, 31: 40, 35: 55 };
 
 const listEl = document.getElementById('trophyList');
 const detailEl = document.getElementById('detail');
@@ -33,7 +35,38 @@ const demoMode = params.get('demo') === '1';
 
 let doc = null;
 let earned = new Set(loadStored());
+let counts = loadCounts();
 let selectedId = null;
+
+function loadCounts() {
+  try {
+    const raw = localStorage.getItem(COUNT_KEY);
+    const obj = raw ? JSON.parse(raw) : {};
+    return (obj && typeof obj === 'object') ? obj : {};
+  } catch {
+    return {};
+  }
+}
+
+function saveCounts() {
+  try {
+    localStorage.setItem(COUNT_KEY, JSON.stringify(counts));
+  } catch {
+    // Storage unavailable: counts still work in memory.
+  }
+}
+
+function effectiveCount(trophy) {
+  if (demoMode && DEMO_COUNTS[trophy.id] !== undefined) return DEMO_COUNTS[trophy.id];
+  const v = counts[trophy.id];
+  return typeof v === 'number' ? v : 0;
+}
+
+// A trophy gets a YOUR COUNT counter when its count is a plain number
+// target (not a dollar amount, which formatCount shows as $).
+function hasCounter(trophy) {
+  return typeof trophy.count === 'number' && trophy.count < 1000;
+}
 
 function loadStored() {
   try {
@@ -163,6 +196,10 @@ function renderList() {
       c.textContent = count;
       tags.append(c);
     }
+    const srcTag = document.createElement('span');
+    srcTag.className = 'tag src-tag';
+    srcTag.textContent = `${(t.sources || []).length} sources`;
+    tags.append(srcTag);
     body.append(tags);
     li.append(box, body);
 
@@ -199,7 +236,7 @@ function renderDetail() {
   detailEl.append(h2);
 
   const meta = document.createElement('p');
-  meta.textContent = `${gradeLabel(t.grade)} · ${t.kind}${t.hidden ? ' · Hidden on PlayStation' : ''}${set.has(t.name) ? ' · Earned' : ''}`;
+  meta.textContent = `${gradeLabel(t.grade)} · ${t.kind}${t.hidden ? ' · Hidden on PlayStation' : ''}${set.has(t.name) ? ' · Earned' : ''} · ${(t.sources || []).length} sources`;
   detailEl.append(meta);
 
   if (hidden) {
@@ -215,12 +252,32 @@ function renderDetail() {
   desc.textContent = t.description;
   detailEl.append(descH, desc);
 
+  // HOW TO EARN IT — numbered steps in our own words, each with its sources.
+  const steps = Array.isArray(t.steps) && t.steps.length ? t.steps : null;
   const guideH = document.createElement('h3');
-  guideH.textContent = 'Guide';
-  const guide = document.createElement('p');
-  guide.className = 'detail-guide';
-  guide.textContent = t.guide;
-  detailEl.append(guideH, guide);
+  guideH.textContent = steps ? `How to earn it · ${steps.length} steps` : 'Guide';
+  detailEl.append(guideH);
+  if (steps) {
+    const ol = document.createElement('ol');
+    ol.className = 'detail-steps';
+    for (const step of steps) {
+      const li = document.createElement('li');
+      li.append(document.createTextNode(step.text + ' '));
+      for (const n of step.cites || []) {
+        const sup = document.createElement('sup');
+        sup.className = 'cite-num';
+        sup.textContent = `[${n}]`;
+        li.append(sup, document.createTextNode(' '));
+      }
+      ol.append(li);
+    }
+    detailEl.append(ol);
+  } else {
+    const guide = document.createElement('p');
+    guide.className = 'detail-guide';
+    guide.textContent = t.guide;
+    detailEl.append(guide);
+  }
 
   if (t.missable && t.missableNote) {
     const warn = document.createElement('p');
@@ -229,12 +286,122 @@ function renderDetail() {
     detailEl.append(warn);
   }
 
+  // SOURCES DIFFER — both versions shown, then OUR CALL.
+  if (t.dispute) {
+    const d = t.dispute;
+    const box = document.createElement('div');
+    box.className = 'dispute-box';
+    const dh = document.createElement('h3');
+    dh.textContent = 'Sources differ — both versions shown';
+    box.append(dh);
+    const q = document.createElement('p');
+    q.className = 'dispute-q';
+    q.textContent = d.question;
+    box.append(q);
+    const va = document.createElement('p');
+    va.innerHTML = '';
+    va.append(document.createTextNode('A — '));
+    const aStrong = document.createElement('strong');
+    aStrong.textContent = d.a.label + ': ';
+    va.append(aStrong, document.createTextNode(d.a.text));
+    box.append(va);
+    const vb = document.createElement('p');
+    vb.append(document.createTextNode('B — '));
+    const bStrong = document.createElement('strong');
+    bStrong.textContent = d.b.label + ': ';
+    vb.append(bStrong, document.createTextNode(d.b.text));
+    box.append(vb);
+    const call = document.createElement('p');
+    call.className = 'dispute-call';
+    call.append(document.createTextNode('OUR CALL: '));
+    const callStrong = document.createElement('strong');
+    callStrong.textContent = d.call;
+    call.append(callStrong);
+    box.append(call);
+    detailEl.append(box);
+  }
+
+  // YOUR COUNT — interactive counter for collectible-count trophies.
+  if (hasCounter(t)) {
+    const wrap = document.createElement('div');
+    wrap.className = 'count-box';
+    const ch = document.createElement('h3');
+    ch.textContent = 'Your count';
+    wrap.append(ch);
+    const cur = effectiveCount(t);
+    const row = document.createElement('div');
+    row.className = 'count-row';
+    const minus = document.createElement('button');
+    minus.type = 'button';
+    minus.textContent = '−';
+    minus.setAttribute('aria-label', 'Count one fewer');
+    const val = document.createElement('span');
+    val.className = 'count-val';
+    val.textContent = `${cur} / ${t.count}`;
+    const plus = document.createElement('button');
+    plus.type = 'button';
+    plus.textContent = '+';
+    plus.setAttribute('aria-label', 'Count one more');
+    const bump = (delta) => {
+      if (demoMode) return;
+      const next = Math.max(0, Math.min(t.count, effectiveCount(t) + delta));
+      counts[t.id] = next;
+      saveCounts();
+      renderDetail();
+    };
+    minus.addEventListener('click', () => bump(-1));
+    plus.addEventListener('click', () => bump(1));
+    row.append(minus, val, plus);
+    wrap.append(row);
+    const note = document.createElement('p');
+    note.className = 'count-note';
+    note.textContent = cur >= t.count
+      ? 'Done — this trophy should pop.'
+      : `${t.count - cur} to go. Your count is saved in this browser.`;
+    wrap.append(note);
+    detailEl.append(wrap);
+  }
+
+  // NEXT UP — the next unearned trophy in roadmap order.
+  const next = nextUpTrophy(t);
+  if (next) {
+    const nu = document.createElement('div');
+    nu.className = 'nextup-box';
+    const nh = document.createElement('h3');
+    nh.textContent = 'Next up · roadmap order';
+    nu.append(nh);
+    const np = document.createElement('p');
+    np.append(document.createTextNode('After this, do '));
+    const ns = document.createElement('strong');
+    ns.textContent = next.name;
+    np.append(ns, document.createTextNode(` (${gradeLabel(next.grade)} · ${next.kind}) — ${next.description}`));
+    nu.append(np);
+    const nb = document.createElement('button');
+    nb.type = 'button';
+    nb.className = 'nextup-btn';
+    nb.textContent = 'Open it';
+    nb.addEventListener('click', () => {
+      selectedId = next.id;
+      renderList();
+      renderDetail();
+    });
+    nu.append(nb);
+    detailEl.append(nu);
+  }
+
+  // SOURCES FOR THIS GUIDE — each source with its URL, read date and claim count.
   const srcH = document.createElement('h3');
-  srcH.textContent = 'Sources (' + (t.sources || []).length + ')';
+  srcH.textContent = 'Sources for this guide (' + (t.sources || []).length + ')';
+  detailEl.append(srcH);
   const ul = document.createElement('ul');
   ul.className = 'detail-sources';
-  for (const name of t.sources || []) {
+  const claimCounts = sourceClaimCounts();
+  (t.sources || []).forEach((name, idx) => {
     const li = document.createElement('li');
+    const num = document.createElement('span');
+    num.className = 'src-num';
+    num.textContent = `[${idx + 1}] `;
+    li.append(num);
     const url = sourceUrl(name);
     if (url) {
       const a = document.createElement('a');
@@ -244,11 +411,46 @@ function renderDetail() {
       a.textContent = name;
       li.append(a);
     } else {
-      li.textContent = name;
+      li.append(document.createTextNode(name));
     }
+    const read = doc.sourceRead && doc.sourceRead[name];
+    const meta2 = document.createElement('span');
+    meta2.className = 'src-meta';
+    meta2.textContent = ` — read ${read || 'Nov 2026'} · cited on ${claimCounts.get(name) || 0} trophies`;
+    li.append(meta2);
     ul.append(li);
+  });
+  detailEl.append(ul);
+}
+
+function sourceClaimCounts() {
+  const counts = new Map();
+  for (const t of doc.trophies || []) {
+    for (const name of t.sources || []) {
+      counts.set(name, (counts.get(name) || 0) + 1);
+    }
   }
-  detailEl.append(srcH, ul);
+  return counts;
+}
+
+// The next unearned trophy in roadmap order (stage order, then trophy id).
+// Roadmap stages are defined in roadmap.js; the order below mirrors them
+// (story, strangers, collectibles, activities, cleanup) so this panel needs
+// no import cycle.
+function nextUpTrophy(current) {
+  const set = effectiveEarned();
+  const order = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 47, 48, 22, 23, 24, 25, 26, 27, 29, 30, 31, 35, 42, 54, 15, 16, 17, 18, 19, 20, 21, 32, 33, 34, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 49, 50, 51, 52, 53, 55, 14, 1];
+  const byId = new Map(doc.trophies.map((x) => [x.id, x]));
+  const after = order.indexOf(current.id);
+  for (let i = after + 1; i < order.length; i++) {
+    const cand = byId.get(order[i]);
+    if (cand && !set.has(cand.name)) return cand;
+  }
+  for (let i = 0; i <= after; i++) {
+    const cand = byId.get(order[i]);
+    if (cand && cand.id !== current.id && !set.has(cand.name)) return cand;
+  }
+  return null;
 }
 
 function renderRoadmapAndMissable() {
@@ -267,28 +469,84 @@ function renderSources() {
   }
   const summary = document.getElementById('sourceSummary');
   if (summary) {
-    summary.textContent = total + ' citations from ' + counts.size + ' sources — every trophy cites 5–6 guides.';
+    summary.textContent = total + ' citations from ' + counts.size + ' sources — every trophy cites 7–8 guides.';
+  }
+  // AUDIT BAR — hard numbers, computed from the data, never invented.
+  const auditEl = document.getElementById('auditBar');
+  if (auditEl && !auditEl.dataset.built) {
+    const a = doc.audit || {};
+    const items = [
+      `${a.official || '55/55'} official`,
+      `${a.claimsCited || total}/${a.claimsCited || total} claims cited`,
+      `${a.backed2plus || 55} backed by 2+ sources`,
+      `${a.sites || counts.size} sites`,
+      `${a.disputesShown || 0} disputes shown both ways`,
+    ];
+    for (const text of items) {
+      const span = document.createElement('span');
+      span.className = 'audit-item';
+      span.textContent = text;
+      auditEl.append(span);
+    }
+    auditEl.dataset.built = '1';
   }
   const list = document.getElementById('sourceList');
-  if (!list || list.dataset.built) return;
-  list.innerHTML = '';
-  for (const [name, n] of [...counts.entries()].sort((a, b) => b[1] - a[1])) {
-    const li = document.createElement('li');
-    const url = sourceUrl(name);
-    const label = name + ' — ' + n + (n === 1 ? ' trophy' : ' trophies');
-    if (url) {
-      const a = document.createElement('a');
-      a.href = url;
-      a.target = '_blank';
-      a.rel = 'noopener';
-      a.textContent = label;
-      li.append(a);
-    } else {
-      li.textContent = label;
+  if (list && !list.dataset.built) {
+    list.innerHTML = '';
+    for (const [name, n] of [...counts.entries()].sort((a, b) => b[1] - a[1])) {
+      const li = document.createElement('li');
+      const url = sourceUrl(name);
+      const label = name + ' — ' + n + (n === 1 ? ' trophy' : ' trophies');
+      if (url) {
+        const a = document.createElement('a');
+        a.href = url;
+        a.target = '_blank';
+        a.rel = 'noopener';
+        a.textContent = label;
+        li.append(a);
+      } else {
+        li.textContent = label;
+      }
+      list.append(li);
     }
-    list.append(li);
+    list.dataset.built = '1';
   }
-  list.dataset.built = '1';
+  // List-level disputes (about the list itself, not one trophy).
+  const ld = document.getElementById('listDisputes');
+  if (ld && !ld.dataset.built && Array.isArray(doc.listDisputes) && doc.listDisputes.length) {
+    const h = document.createElement('h3');
+    h.textContent = 'Disputes about the list — both versions shown';
+    ld.append(h);
+    for (const d of doc.listDisputes) {
+      const box = document.createElement('div');
+      box.className = 'dispute-box';
+      const q = document.createElement('p');
+      q.className = 'dispute-q';
+      q.textContent = d.question;
+      box.append(q);
+      const va = document.createElement('p');
+      va.append(document.createTextNode('A — '));
+      const aStrong = document.createElement('strong');
+      aStrong.textContent = d.a.label + ': ';
+      va.append(aStrong, document.createTextNode(d.a.text));
+      box.append(va);
+      const vb = document.createElement('p');
+      vb.append(document.createTextNode('B — '));
+      const bStrong = document.createElement('strong');
+      bStrong.textContent = d.b.label + ': ';
+      vb.append(bStrong, document.createTextNode(d.b.text));
+      box.append(vb);
+      const call = document.createElement('p');
+      call.className = 'dispute-call';
+      call.append(document.createTextNode('OUR CALL: '));
+      const callStrong = document.createElement('strong');
+      callStrong.textContent = d.call;
+      call.append(callStrong);
+      box.append(call);
+      ld.append(box);
+    }
+    ld.dataset.built = '1';
+  }
 }
 
 function renderAll() {

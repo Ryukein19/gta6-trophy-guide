@@ -149,5 +149,55 @@ main { max-width: 1080px; margin: 0 auto; padding: 18px 20px 40px; }
 
 .empty-msg { color: var(--muted); }
 
+/* Round 3 — audit bar, numbered steps, disputes, counter, next-up. */
+.audit-bar {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 4px; max-width: 720px;
+}
+.audit-item {
+  background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.45);
+  color: #fff; font-size: 13px; font-weight: 700; padding: 6px 10px; border-radius: 999px;
+  white-space: nowrap;
+}
+.detail-steps { margin: 6px 0 0; padding-left: 22px; }
+.detail-steps li { margin-bottom: 8px; font-size: 15px; line-height: 1.6; }
+.cite-num { color: #5b21b6; font-weight: 700; font-size: 12px; }
+.tag.src-tag { background: #ede9fe; border-color: #7b2ff7; color: #4c1d95; }
+.dispute-box {
+  background: #fff7e6; border: 1px solid #f0b429; border-radius: 8px;
+  padding: 10px 12px; margin-top: 12px;
+}
+.dispute-box h3 { margin: 0 0 4px; }
+.dispute-q { font-weight: 700; margin: 4px 0; }
+.dispute-box p { font-size: 13px; }
+.dispute-call { margin-top: 8px; }
+.count-box {
+  background: #f2fbf3; border: 1px solid #86c98d; border-radius: 8px;
+  padding: 10px 12px; margin-top: 12px;
+}
+.count-box h3 { margin: 0 0 6px; }
+.count-row { display: flex; align-items: center; gap: 12px; }
+.count-row button {
+  width: 38px; height: 38px; font-size: 22px; line-height: 1; border-radius: 8px;
+  border: 1px solid #7b2ff7; background: #7b2ff7; color: #fff; cursor: pointer;
+}
+.count-row button:hover { background: #6926d6; }
+.count-val { font-size: 20px; font-weight: 800; min-width: 90px; text-align: center; }
+.count-note { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
+.nextup-box {
+  background: #eef2ff; border: 1px solid #7b2ff7; border-radius: 8px;
+  padding: 10px 12px; margin-top: 12px;
+}
+.nextup-box h3 { margin: 0 0 4px; }
+.nextup-box p { font-size: 14px; }
+.nextup-btn {
+  padding: 8px 12px; border-radius: 8px; border: 1px solid #7b2ff7;
+  background: #7b2ff7; color: #fff; font-size: 14px; cursor: pointer; margin-top: 6px;
+}
+.nextup-btn:hover { background: #6926d6; }
+.src-num { font-weight: 700; color: #5b21b6; }
+.src-meta { color: var(--muted); font-size: 12px; }
+.list-disputes { margin-top: 14px; }
+.list-disputes h3 { font-size: 15px; margin: 0 0 8px; }
+
 footer { margin-top: 26px; border-top: 1px solid var(--line); padding-top: 14px; }
 footer p { font-size: 13px; color: var(--muted); margin: 0; }

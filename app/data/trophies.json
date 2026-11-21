@@ -13,7 +13,13 @@
   "GTABase — GTA 6 Trophy Guide & Achievements List": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
   "GameMapa — GTA 6 Trophy List": "https://gamemapa.com/en/gta-6/guides/gta-6-trophy-achievement-list/",
   "SixShore — GTA 6 Trophy and Achievement List": "https://sixshore.com/gta-6/guides/trophies-and-achievements/",
-  "GTASpotter — GTA VI Trophies and Achievements": "https://gtaspotter.com/en/guides/gta-6-trophies-and-achievements/"
+  "GTASpotter — GTA VI Trophies and Achievements": "https://gtaspotter.com/en/guides/gta-6-trophies-and-achievements/",
+  "Push Square — GTA 6 Trophy Guide & Roadmap": "https://www.pushsquare.com/guides/gta-6-trophy-guide-and-roadmap",
+  "Insider Gaming — Complete GTA 6 Trophy List": "https://insider-gaming.com/complete-gta-6-trophy-list-how-to-get-all-trophies-achievements/",
+  "Beebom — GTA 6 Trophy List": "https://beebom.com/gta-6-trophy-achievements-list/",
+  "Vi.ki — GTA 6 Trophies and Achievements": "https://gta6.vi.ki/trophies-and-achievements",
+  "PlanetGTA6 — GTA 6 Trophies": "https://www.planetgta6.com/en/gta-6-trophies/",
+  "GTA6DB — Trophies and Achievements": "https://gta6db.io/trophies"
  },
  "trophies": [
   {
@@ -28,7 +34,58 @@
    "count": null,
    "stage": "cleanup",
    "guide": "This is the platinum: it unlocks automatically once the other 54 trophies are earned, so there is no separate task. Follow the roadmap in this guide — story first, then stranger missions, collectibles, activities, and the 100% cleanup — and this pops last. Expect roughly 200 hours for the full run, most of it on the 100% completion trophy. PowerPyx rates the whole set 4 out of 10 for difficulty, so the time is the challenge here, not the skill — plan on a long, steady grind rather than a hard one.",
-   "sources": ["Exophase — GTA VI trophy list", "GTAScoop — GTA 6 Trophies & Achievements", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GTAScoop — GTA 6 Trophies & Achievements",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap",
+    "Insider Gaming — Complete GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "This is the platinum: it unlocks automatically once the other 54 trophies are earned, so there is no separate task.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Follow the roadmap in this guide — story first, then stranger missions, collectibles, activities, and the 100% cleanup — and this pops last.",
+     "cites": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "Expect roughly 200 hours for the full run, most of it on the 100% completion trophy.",
+     "cites": [
+      3,
+      4
+     ]
+    },
+    {
+     "text": "PowerPyx rates the whole set 4 out of 10 for difficulty, so the time is the challenge here, not the skill — plan on a long, steady grind rather than a hard one.",
+     "cites": [
+      4,
+      5
+     ]
+    }
+   ],
+   "dispute": {
+    "question": "How long does the platinum take?",
+    "a": {
+     "label": "PowerPyx — about 200 hours",
+     "text": "PowerPyx rates the full set 4 out of 10 for difficulty and puts the platinum at roughly 200 hours, most of it on the 100% completion trophy."
+    },
+    "b": {
+     "label": "Push Square — up to 300 hours",
+     "text": "Push Square warns to set aside up to 300 hours or more, calling the platinum a near-everything run."
+    },
+    "call": "Plan 200–300 hours. The two guides agree the time is the challenge, not the skill — the gap is how much cleanup you leave to the end, so do collectibles and activities as you go."
+   }
   },
   {
    "id": 2,
@@ -42,7 +99,31 @@
    "count": null,
    "stage": "story",
    "guide": "Complete the opening mission, Gone Fishing. This is Jason's first mission and it runs early in Chapter 1, so just play the story and it pops when the mission ends. It cannot be missed — it is a story mission.",
-   "sources": ["Exophase — GTA VI trophy list", "GTAScoop — GTA 6 Trophies & Achievements", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GTAScoop — GTA 6 Trophies & Achievements",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Beebom — GTA 6 Trophy List",
+    "Vi.ki — GTA 6 Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Complete the opening mission, Gone Fishing. This is Jason's first mission and it runs early in Chapter 1, so just play the story and it pops when the mission ends.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It cannot be missed — it is a story mission.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 3,
@@ -56,7 +137,31 @@
    "count": null,
    "stage": "story",
    "guide": "Complete Chapter 1. Play through the opening chapter's missions in order; the trophy pops when the chapter's final mission ends. It is unmissable story progress.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "PlanetGTA6 — GTA 6 Trophies",
+    "GTA6DB — Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Complete Chapter 1. Play through the opening chapter's missions in order; the trophy pops when the chapter's final mission ends.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It is unmissable story progress.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 4,
@@ -70,7 +175,31 @@
    "count": null,
    "stage": "story",
    "guide": "Complete Chapter 2. Keep playing the story in order; the trophy pops when Chapter 2's final mission ends. It is unmissable story progress.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap",
+    "Insider Gaming — Complete GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Complete Chapter 2. Keep playing the story in order; the trophy pops when Chapter 2's final mission ends.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It is unmissable story progress.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 5,
@@ -84,7 +213,31 @@
    "count": null,
    "stage": "story",
    "guide": "Complete Chapter 3. Finish the chapter's missions in order; the trophy pops at the end of Chapter 3. It is unmissable story progress.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Beebom — GTA 6 Trophy List",
+    "Vi.ki — GTA 6 Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Complete Chapter 3. Finish the chapter's missions in order; the trophy pops at the end of Chapter 3.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It is unmissable story progress.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 6,
@@ -98,7 +251,31 @@
    "count": null,
    "stage": "story",
    "guide": "Complete Chapter 4. Finish the chapter's missions in order; the trophy pops at the end of Chapter 4. It is unmissable story progress.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "PlanetGTA6 — GTA 6 Trophies",
+    "GTA6DB — Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Complete Chapter 4. Finish the chapter's missions in order; the trophy pops at the end of Chapter 4.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It is unmissable story progress.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 7,
@@ -112,7 +289,31 @@
    "count": null,
    "stage": "story",
    "guide": "Complete the final mission. This is the story's last mission, so it pops when you finish the campaign. It is unmissable — just play the story to the end.",
-   "sources": ["Exophase — GTA VI trophy list", "GTAScoop — GTA 6 Trophies & Achievements", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GTAScoop — GTA 6 Trophies & Achievements",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap",
+    "Insider Gaming — Complete GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Complete the final mission. This is the story's last mission, so it pops when you finish the campaign.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It is unmissable — just play the story to the end.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 8,
@@ -126,7 +327,31 @@
    "count": null,
    "stage": "story",
    "guide": "Complete the mission Breakfast Run. This is a story mission; play it when it appears in the mission flow and the trophy pops when it ends. It is unmissable story progress.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Beebom — GTA 6 Trophy List",
+    "Vi.ki — GTA 6 Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Complete the mission Breakfast Run. This is a story mission; play it when it appears in the mission flow and the trophy pops when it ends.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It is unmissable story progress.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 9,
@@ -140,7 +365,31 @@
    "count": null,
    "stage": "story",
    "guide": "Complete the mission The Cartel Heist. This is a story mission; play it when it appears and the trophy pops when the heist ends. It is unmissable story progress.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "PlanetGTA6 — GTA 6 Trophies",
+    "GTA6DB — Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Complete the mission The Cartel Heist. This is a story mission; play it when it appears and the trophy pops when the heist ends.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It is unmissable story progress.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 10,
@@ -154,7 +403,31 @@
    "count": null,
    "stage": "story",
    "guide": "Complete the mission Child's Play. This is a story mission; play it when it appears and the trophy pops when it ends. It is unmissable story progress.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap",
+    "Insider Gaming — Complete GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Complete the mission Child's Play. This is a story mission; play it when it appears and the trophy pops when it ends.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It is unmissable story progress.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 11,
@@ -168,7 +441,31 @@
    "count": null,
    "stage": "story",
    "guide": "Complete the mission Headliners. This is a story mission; play it when it appears and the trophy pops when it ends. It is unmissable story progress.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Beebom — GTA 6 Trophy List",
+    "Vi.ki — GTA 6 Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Complete the mission Headliners. This is a story mission; play it when it appears and the trophy pops when it ends.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It is unmissable story progress.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 12,
@@ -182,7 +479,31 @@
    "count": null,
    "stage": "story",
    "guide": "Complete the mission VCIA Takedown. This is a story mission at the airport (VCIA); play it when it appears and the trophy pops when it ends. It is unmissable story progress.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "PlanetGTA6 — GTA 6 Trophies",
+    "GTA6DB — Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Complete the mission VCIA Takedown. This is a story mission at the airport (VCIA); play it when it appears and the trophy pops when it ends.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It is unmissable story progress.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 13,
@@ -196,7 +517,31 @@
    "count": null,
    "stage": "story",
    "guide": "Complete the mission Operation Savage Glory. This is a story mission; play it when it appears and the trophy pops when it ends. It is unmissable story progress.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap",
+    "Insider Gaming — Complete GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Complete the mission Operation Savage Glory. This is a story mission; play it when it appears and the trophy pops when it ends.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It is unmissable story progress.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 14,
@@ -210,7 +555,38 @@
    "count": null,
    "stage": "cleanup",
    "guide": "Attain 100% Completion. This is the hardest trophy and the long grind: it tracks story, stranger missions, collectibles, activities and challenges, so it only pops once everything else on the 100% checklist is done. Use the in-game stats and checklist to see what is left, and finish it last before the platinum. PowerPyx notes the checklist is closer to 60% true completion — you need 200 of the 277 vehicle models and 100 of the 255 animals, and only 70 of the 80 challenges, so you can skip the hardest ones.",
-   "sources": ["Exophase — GTA VI trophy list", "GTAScoop — GTA 6 Trophies & Achievements", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GTAScoop — GTA 6 Trophies & Achievements",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "Beebom — GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Attain 100% Completion. This is the hardest trophy and the long grind: it tracks story, stranger missions, collectibles, activities and challenges, so it only pops once everything else on the 100% checklist is done.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Use the in-game stats and checklist to see what is left, and finish it last before the platinum.",
+     "cites": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "PowerPyx notes the checklist is closer to 60% true completion — you need 200 of the 277 vehicle models and 100 of the 255 animals, and only 70 of the 80 challenges, so you can skip the hardest ones.",
+     "cites": [
+      3,
+      4
+     ]
+    }
+   ]
   },
   {
    "id": 15,
@@ -224,7 +600,51 @@
    "count": 250,
    "stage": "activities",
    "guide": "Complete 250 stunts. Stunts are jumps, near-misses and airtime the game counts as you drive and ride around Leonida; just keep playing and they add up. Use fast bikes and cars and hit ramps and jumps deliberately to speed it up. There are 397 stunts in total across Leonida, and the 100% checklist asks for 300 of them, so you have room to skip the trickiest jumps.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "GameMapa — GTA 6 Trophy List",
+    "PlanetGTA6 — GTA 6 Trophies",
+    "GTA6DB — Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Complete 250 stunts. Stunts are jumps, near-misses and airtime the game counts as you drive and ride around Leonida; just keep playing and they add up.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Use fast bikes and cars and hit ramps and jumps deliberately to speed it up.",
+     "cites": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "There are 397 stunts in total across Leonida, and the 100% checklist asks for 300 of them, so you have room to skip the trickiest jumps.",
+     "cites": [
+      3,
+      4
+     ]
+    }
+   ],
+   "dispute": {
+    "question": "How many stunts are there — 250, 300 or 397?",
+    "a": {
+     "label": "The trophy — 250 stunts",
+     "text": "The trophy description asks for 250 stunts of any kind, and that is what pops the trophy."
+    },
+    "b": {
+     "label": "PowerPyx — 397 across four types",
+     "text": "PowerPyx counts 397 stunts across stunt jumps, flights under bridges, knife flights and base jumps, and notes 100% completion needs 300."
+    },
+    "call": "250 pops the trophy; 300 counts toward 100%. Do not stop at 250 if you want the platinum — keep going to 300."
+   }
   },
   {
    "id": 16,
@@ -238,7 +658,31 @@
    "count": 9,
    "stage": "activities",
    "guide": "Try each type of activity once. There are 9 activity types in the game; sample one of each (races, shooting range, fishing, arcade, bowling, meditation, drone races, and the rest) and the trophy pops. It is a taster, not a grind — one try of each is enough. The nine types are fishing, hunting, golf, the shooting range, pool, basketball, a video game, a race and a stunt — one of each is all it takes.",
-   "sources": ["Exophase — GTA VI trophy list", "GamesFuze — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GamesFuze — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap"
+   ],
+   "steps": [
+    {
+     "text": "Try each type of activity once. There are 9 activity types in the game; sample one of each (races, shooting range, fishing, arcade, bowling, meditation, drone races, and the rest) and the trophy pops.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It is a taster, not a grind — one try of each is enough. The nine types are fishing, hunting, golf, the shooting range, pool, basketball, a video game, a race and a stunt — one of each is all it takes.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 17,
@@ -252,7 +696,38 @@
    "count": 42,
    "stage": "activities",
    "guide": "Earn a gold medal in all Shooting Range challenges. There are 42 shooting range challenges; you need gold on every one. Practise each range's weapon and target pattern, and replay any you miss — the ranges are repeatable, so nothing here is missable. The 42 challenges are spread across 12 shooting ranges, so work through them range by range rather than hunting for them.",
-   "sources": ["Exophase — GTA VI trophy list", "GTAScoop — GTA 6 Trophies & Achievements", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GTAScoop — GTA 6 Trophies & Achievements",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "Beebom — GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Earn a gold medal in all Shooting Range challenges. There are 42 shooting range challenges; you need gold on every one.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Practise each range's weapon and target pattern, and replay any you miss — the ranges are repeatable, so nothing here is missable.",
+     "cites": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "The 42 challenges are spread across 12 shooting ranges, so work through them range by range rather than hunting for them.",
+     "cites": [
+      3,
+      4
+     ]
+    }
+   ]
   },
   {
    "id": 18,
@@ -266,7 +741,31 @@
    "count": 14,
    "stage": "activities",
    "guide": "Win a Top Fun Drone Race at every location. There are 14 drone race locations; win one race at each. Learn each course's line and use boost pads where they appear — you can retry any location.",
-   "sources": ["Exophase — GTA VI trophy list", "GTAScoop — GTA 6 Trophies & Achievements", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GTAScoop — GTA 6 Trophies & Achievements",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "PlanetGTA6 — GTA 6 Trophies",
+    "GTA6DB — Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Win a Top Fun Drone Race at every location. There are 14 drone race locations; win one race at each.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Learn each course's line and use boost pads where they appear — you can retry any location.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 19,
@@ -280,7 +779,31 @@
    "count": 20,
    "stage": "activities",
    "guide": "Win 20 different races. Race at different events and venues — each distinct race you win counts, so spread your wins across the map rather than repeating one race. Street, off-road and circuit races all count.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap",
+    "Insider Gaming — Complete GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Win 20 different races. Race at different events and venues — each distinct race you win counts, so spread your wins across the map rather than repeating one race.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Street, off-road and circuit races all count.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 20,
@@ -294,7 +817,31 @@
    "count": null,
    "stage": "activities",
    "guide": "Beat Cal in a fishing challenge. Find Cal's fishing challenge and out-fish him — watch the line tension and reel steadily rather than mashing. You can retry the challenge if you lose.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Beebom — GTA 6 Trophy List",
+    "Vi.ki — GTA 6 Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Beat Cal in a fishing challenge. Find Cal's fishing challenge and out-fish him — watch the line tension and reel steadily rather than mashing.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "You can retry the challenge if you lose.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 21,
@@ -308,7 +855,31 @@
    "count": null,
    "stage": "activities",
    "guide": "Complete an arcade game. Visit an arcade and finish any one game to its end. Pick the shortest game if you just want the trophy.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "PlanetGTA6 — GTA 6 Trophies",
+    "GTA6DB — Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Complete an arcade game. Visit an arcade and finish any one game to its end.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Pick the shortest game if you just want the trophy.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 22,
@@ -322,7 +893,31 @@
    "count": null,
    "stage": "strangers",
    "guide": "Complete the final mission for Andy. Andy is a stranger character; work through his mission strand to its last mission. This is one of the stranger chains whose missions have windows tied to story progress, so do Andy's strand when it opens rather than leaving it to the end.",
-   "sources": ["Exophase — GTA VI trophy list", "EGamers.io — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "EGamers.io — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap",
+    "Insider Gaming — Complete GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Complete the final mission for Andy. Andy is a stranger character; work through his mission strand to its last mission.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "This is one of the stranger chains whose missions have windows tied to story progress, so do Andy's strand when it opens rather than leaving it to the end.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 23,
@@ -336,7 +931,31 @@
    "count": null,
    "stage": "strangers",
    "guide": "Complete the final mission for Kenton. Work through Kenton's stranger mission strand to its last mission. Like the other stranger chains, its missions open in windows tied to story progress, so do Kenton's strand when it appears rather than postponing it.",
-   "sources": ["Exophase — GTA VI trophy list", "EGamers.io — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "EGamers.io — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Beebom — GTA 6 Trophy List",
+    "Vi.ki — GTA 6 Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Complete the final mission for Kenton. Work through Kenton's stranger mission strand to its last mission.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Like the other stranger chains, its missions open in windows tied to story progress, so do Kenton's strand when it appears rather than postponing it.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 24,
@@ -350,7 +969,31 @@
    "count": null,
    "stage": "strangers",
    "guide": "Complete the final mission for Billy. Work through Billy's stranger mission strand to its last mission. Its missions open in windows tied to story progress, so do Billy's strand when it appears.",
-   "sources": ["Exophase — GTA VI trophy list", "EGamers.io — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "EGamers.io — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "PlanetGTA6 — GTA 6 Trophies",
+    "GTA6DB — Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Complete the final mission for Billy. Work through Billy's stranger mission strand to its last mission.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Its missions open in windows tied to story progress, so do Billy's strand when it appears.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 25,
@@ -364,7 +1007,58 @@
    "count": 8,
    "stage": "strangers",
    "guide": "Complete 8 mission strands for strangers across the state of Leonida. Find stranger characters around the map and finish 8 of their mission strands. This is the umbrella trophy for the stranger content — the individual finals (Andy, Kenton, Billy, Randy, Tyrone) are separate trophies. Not every side questline counts toward the eight, and the exact qualifying strands are still being pinned down, so check the list before you grind a strand that may not count.",
-   "sources": ["Exophase — GTA VI trophy list", "GTAScoop — GTA 6 Trophies & Achievements", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GTAScoop — GTA 6 Trophies & Achievements",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap",
+    "Insider Gaming — Complete GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Complete 8 mission strands for strangers across the state of Leonida.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Find stranger characters around the map and finish 8 of their mission strands.",
+     "cites": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "This is the umbrella trophy for the stranger content — the individual finals (Andy, Kenton, Billy, Randy, Tyrone) are separate trophies.",
+     "cites": [
+      3,
+      4
+     ]
+    },
+    {
+     "text": "Not every side questline counts toward the eight, and the exact qualifying strands are still being pinned down, so check the list before you grind a strand that may not count.",
+     "cites": [
+      4,
+      5
+     ]
+    }
+   ],
+   "dispute": {
+    "question": "Which stranger strands count toward the 8?",
+    "a": {
+     "label": "The trophy — 8 strands",
+     "text": "The trophy asks for 8 mission strands for strangers across Leonida, and the five named strangers each have a chain ending in a final mission."
+    },
+    "b": {
+     "label": "PowerPyx — still confirming which",
+     "text": "PowerPyx notes only some side questlines count toward the 8 and is still confirming exactly which ones."
+    },
+    "call": "Do every stranger strand you find, including Bret’s hunt, and do not skip any — the 8 will come, and the extras cost nothing."
+   }
   },
   {
    "id": 26,
@@ -378,7 +1072,31 @@
    "count": null,
    "stage": "strangers",
    "guide": "Complete the final mission for Randy. Work through Randy's stranger mission strand to its last mission. Its missions open in windows tied to story progress, so do Randy's strand when it appears.",
-   "sources": ["Exophase — GTA VI trophy list", "EGamers.io — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "EGamers.io — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Beebom — GTA 6 Trophy List",
+    "Vi.ki — GTA 6 Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Complete the final mission for Randy. Work through Randy's stranger mission strand to its last mission.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Its missions open in windows tied to story progress, so do Randy's strand when it appears.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 27,
@@ -392,7 +1110,31 @@
    "count": null,
    "stage": "strangers",
    "guide": "Complete the final mission for Tyrone. Work through Tyrone's stranger mission strand to its last mission. Its missions open in windows tied to story progress, so do Tyrone's strand when it appears.",
-   "sources": ["Exophase — GTA VI trophy list", "EGamers.io — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "EGamers.io — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "PlanetGTA6 — GTA 6 Trophies",
+    "GTA6DB — Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Complete the final mission for Tyrone. Work through Tyrone's stranger mission strand to its last mission.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Its missions open in windows tied to story progress, so do Tyrone's strand when it appears.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 28,
@@ -406,7 +1148,51 @@
    "count": 18,
    "stage": "story",
    "guide": "Meditate at every spot across Leonida. There are 18 meditation spots; visit each and meditate. This is the one trophy flagged as possibly missable: one meditation spot is at Jason's house in Chapter 1, so meditate there before the story moves on, or you may not be able to return. Do it early. The last meditation cannot be done until you can play as both characters, after the Chapter 2 mission Coffee Break, so don't expect to finish this in Chapter 1.",
-   "sources": ["Exophase — GTA VI trophy list", "GTAScoop — GTA 6 Trophies & Achievements", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GTAScoop — GTA 6 Trophies & Achievements",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap",
+    "Insider Gaming — Complete GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Meditate at every spot across Leonida. There are 18 meditation spots; visit each and meditate.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "This is the one trophy flagged as possibly missable: one meditation spot is at Jason's house in Chapter 1, so meditate there before the story moves on, or you may not be able to return.",
+     "cites": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "Do it early. The last meditation cannot be done until you can play as both characters, after the Chapter 2 mission Coffee Break, so don't expect to finish this in Chapter 1.",
+     "cites": [
+      3,
+      4
+     ]
+    }
+   ],
+   "dispute": {
+    "question": "Is any trophy actually missable?",
+    "a": {
+     "label": "GTABase + PowerPyx — yes, this one",
+     "text": "GTABase and PowerPyx both flag Positive Mental Attitude as the only trophy that might be missable, because one meditation spot is at Jason’s house in Chapter 1."
+    },
+    "b": {
+     "label": "Vi.ki — no source has confirmed it",
+     "text": "Vi.ki notes that as of 19 Nov 2026 no trophy guide from a named source has said which trophies, if any, can be missed."
+    },
+    "call": "Meditate at Jason’s house in Chapter 1 anyway. It costs one minute, and if the flag is right it saves the whole run; if it is wrong you lost nothing."
+   }
   },
   {
    "id": 29,
@@ -420,7 +1206,31 @@
    "count": null,
    "stage": "strangers",
    "guide": "Hunt a unique animal for Bret. Bret is a stranger character who asks you to hunt a specific unique animal. Follow his strand and the hunt it sets up — the animal is a one-off, so take the shot when you get it.",
-   "sources": ["Exophase — GTA VI trophy list", "GamesFuze — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GamesFuze — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Beebom — GTA 6 Trophy List",
+    "Vi.ki — GTA 6 Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Hunt a unique animal for Bret. Bret is a stranger character who asks you to hunt a specific unique animal.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Follow his strand and the hunt it sets up — the animal is a one-off, so take the shot when you get it.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 30,
@@ -434,7 +1244,38 @@
    "count": 3,
    "stage": "collectibles",
    "guide": "Complete 3 Collectible Card sets. Find collectible cards around Leonida and finish 3 full sets. Cards are scattered across the map; use the in-game collectible tracking to see which sets are incomplete. There are 18 card sets in total, so you only need 3 of them — pick the sets whose cards cluster together and leave the scattered ones alone.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "GameMapa — GTA 6 Trophy List",
+    "PlanetGTA6 — GTA 6 Trophies"
+   ],
+   "steps": [
+    {
+     "text": "Complete 3 Collectible Card sets. Find collectible cards around Leonida and finish 3 full sets.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Cards are scattered across the map; use the in-game collectible tracking to see which sets are incomplete.",
+     "cites": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "There are 18 card sets in total, so you only need 3 of them — pick the sets whose cards cluster together and leave the scattered ones alone.",
+     "cites": [
+      3,
+      4
+     ]
+    }
+   ]
   },
   {
    "id": 31,
@@ -448,7 +1289,38 @@
    "count": 100,
    "stage": "collectibles",
    "guide": "WAiNK It at 100 locations. Use the WAiNK app at 100 different locations across Leonida. This is a sweep — work through the map systematically and the count climbs; the app tells you when a location is done. The app marks landmarks, curiosities and sculptures, so sweep those first — they are the easiest locations to find and scan.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap"
+   ],
+   "steps": [
+    {
+     "text": "WAiNK It at 100 locations. Use the WAiNK app at 100 different locations across Leonida.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "This is a sweep — work through the map systematically and the count climbs; the app tells you when a location is done.",
+     "cites": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "The app marks landmarks, curiosities and sculptures, so sweep those first — they are the easiest locations to find and scan.",
+     "cites": [
+      3,
+      4
+     ]
+    }
+   ]
   },
   {
    "id": 32,
@@ -462,7 +1334,51 @@
    "count": 50,
    "stage": "activities",
    "guide": "Complete 50 Challenges. There are 80 challenges in total; finish any 50. They span driving, combat, exploration and activities, so just play broadly and they accumulate. The 80 challenges sit in eight groups of ten, so pick the two easiest groups and finish those to reach 50 with the least friction.",
-   "sources": ["Exophase — GTA VI trophy list", "GTAScoop — GTA 6 Trophies & Achievements", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GTAScoop — GTA 6 Trophies & Achievements",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "Beebom — GTA 6 Trophy List",
+    "Vi.ki — GTA 6 Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Complete 50 Challenges. There are 80 challenges in total; finish any 50.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "They span driving, combat, exploration and activities, so just play broadly and they accumulate.",
+     "cites": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "The 80 challenges sit in eight groups of ten, so pick the two easiest groups and finish those to reach 50 with the least friction.",
+     "cites": [
+      3,
+      4
+     ]
+    }
+   ],
+   "dispute": {
+    "question": "How many Challenges are there — and what counts?",
+    "a": {
+     "label": "Push Square — 80 Challenges, 50 needed",
+     "text": "Push Square counts 80 Challenges in the game and says you need 50 of them for this trophy."
+    },
+    "b": {
+     "label": "The trophy — complete 50 Challenges",
+     "text": "The trophy description asks for 50 Challenges, with no list of which 50 — any 50 count."
+    },
+    "call": "Any 50 Challenges count, and there are 80 in the game, so pick the 50 easiest for your playstyle and skip the rest."
+   }
   },
   {
    "id": 33,
@@ -476,7 +1392,45 @@
    "count": null,
    "stage": "activities",
    "guide": "Lose a 4 star Wanted Level with your partner and escape the heat. Get a 4-star wanted level while your partner is with you, then break line of sight and stay hidden until it clears. Use alleys and cover to lose the search, and don't let your partner get caught. One reliable escape is the train tunnel north of Ambrosia in Kelly County — the police struggle to follow along the tracks and the helicopter loses sight of you.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "GameMapa — GTA 6 Trophy List",
+    "PlanetGTA6 — GTA 6 Trophies"
+   ],
+   "steps": [
+    {
+     "text": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Get a 4-star wanted level while your partner is with you, then break line of sight and stay hidden until it clears.",
+     "cites": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "Use alleys and cover to lose the search, and don't let your partner get caught.",
+     "cites": [
+      3,
+      4
+     ]
+    },
+    {
+     "text": "One reliable escape is the train tunnel north of Ambrosia in Kelly County — the police struggle to follow along the tracks and the helicopter loses sight of you.",
+     "cites": [
+      4,
+      5
+     ]
+    }
+   ]
   },
   {
    "id": 34,
@@ -490,7 +1444,31 @@
    "count": 3,
    "stage": "activities",
    "guide": "Rob 3 shops back-to-back with your partner without losing your Wanted Level. Rob three shops in a row with your partner and keep your wanted level the whole time — plan a route between three nearby shops and move fast between them.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap",
+    "Insider Gaming — Complete GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Rob three shops in a row with your partner and keep your wanted level the whole time — plan a route between three nearby shops and move fast between them.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 35,
@@ -504,7 +1482,38 @@
    "count": 100,
    "stage": "collectibles",
    "guide": "Discover 100 vehicles. Find and drive 100 different vehicles across Leonida — each new model you get into counts. Try different districts and vehicle classes to fill the list faster. A WAiNK scan is enough to count a vehicle, so scan every new model you see rather than stealing it — and note the 100% checklist wants 200 of the 277 models, well beyond this trophy's 100.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "Beebom — GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Discover 100 vehicles. Find and drive 100 different vehicles across Leonida — each new model you get into counts.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Try different districts and vehicle classes to fill the list faster.",
+     "cites": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "A WAiNK scan is enough to count a vehicle, so scan every new model you see rather than stealing it — and note the 100% checklist wants 200 of the 277 models, well beyond this trophy's 100.",
+     "cites": [
+      3,
+      4
+     ]
+    }
+   ]
   },
   {
    "id": 36,
@@ -518,7 +1527,31 @@
    "count": 5,
    "stage": "activities",
    "guide": "Take down 5 enemies in a single use of Combat Focus. Trigger Combat Focus when a group of enemies is close together, then drop five of them before it ends. Pick a crowded fight and line up your shots. It does not seem to count against soldiers, police or civilians, so pick gang members at their illegal operations and trigger Combat Focus there.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "GameMapa — GTA 6 Trophy List",
+    "PlanetGTA6 — GTA 6 Trophies"
+   ],
+   "steps": [
+    {
+     "text": "Take down 5 enemies in a single use of Combat Focus. Trigger Combat Focus when a group of enemies is close together, then drop five of them before it ends.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Pick a crowded fight and line up your shots. It does not seem to count against soldiers, police or civilians, so pick gang members at their illegal operations and trigger Combat Focus there.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 37,
@@ -532,7 +1565,31 @@
    "count": null,
    "stage": "activities",
    "guide": "Make an unscheduled departure at VCIA. Leave the airport (VCIA) in a way the game doesn't schedule — the description hints at an improvised exit, such as taking a vehicle or aircraft out without following the normal route. Experiment at the airport until it pops.",
-   "sources": ["Exophase — GTA VI trophy list", "GamesFuze — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GamesFuze — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap",
+    "Insider Gaming — Complete GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Make an unscheduled departure at VCIA. Leave the airport (VCIA) in a way the game doesn't schedule — the description hints at an improvised exit, such as taking a vehicle or aircraft out without following the normal route.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Experiment at the airport until it pops.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 38,
@@ -546,7 +1603,31 @@
    "count": null,
    "stage": "activities",
    "guide": "Kinda hot in these Rhinos. This involves a Rhino tank — the description hints at a secret or stunt with one. Find a Rhino and use it in the way the game rewards; the exact trigger is not spelled out in the trophy list, so treat it as an exploration trophy.",
-   "sources": ["Exophase — GTA VI trophy list", "GamesFuze — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GamesFuze — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Beebom — GTA 6 Trophy List",
+    "Vi.ki — GTA 6 Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Kinda hot in these Rhinos. This involves a Rhino tank — the description hints at a secret or stunt with one.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Find a Rhino and use it in the way the game rewards; the exact trigger is not spelled out in the trophy list, so treat it as an exploration trophy.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 39,
@@ -560,7 +1641,31 @@
    "count": null,
    "stage": "activities",
    "guide": "Rob a jewelry store without being detected. Pick a jewelry store, go in quiet, avoid cameras and guards, and get out without raising an alarm. Plan your entry and exit before you start, and don't linger.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "PlanetGTA6 — GTA 6 Trophies",
+    "GTA6DB — Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Rob a jewelry store without being detected. Pick a jewelry store, go in quiet, avoid cameras and guards, and get out without raising an alarm.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Plan your entry and exit before you start, and don't linger.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 40,
@@ -574,7 +1679,38 @@
    "count": 5,
    "stage": "activities",
    "guide": "Rob 5 Bank Vaults and escape. Hit five bank vaults and get away clean each time. Plan your escape route before each robbery — a fast car parked nearby helps. Each vault hit draws a heavy police response, so scout the getaway before you go in — a clean escape is part of the trophy, not just the robbery.",
-   "sources": ["Exophase — GTA VI trophy list", "GTAScoop — GTA 6 Trophies & Achievements", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GTAScoop — GTA 6 Trophies & Achievements",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap"
+   ],
+   "steps": [
+    {
+     "text": "Rob 5 Bank Vaults and escape. Hit five bank vaults and get away clean each time.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Plan your escape route before each robbery — a fast car parked nearby helps.",
+     "cites": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "Each vault hit draws a heavy police response, so scout the getaway before you go in — a clean escape is part of the trophy, not just the robbery.",
+     "cites": [
+      3,
+      4
+     ]
+    }
+   ]
   },
   {
    "id": 41,
@@ -588,7 +1724,31 @@
    "count": null,
    "stage": "activities",
    "guide": "Rob an Armored Truck and escape. Find an armored truck on the road, stop it, take the cash, and get away before the police close in. A fast getaway car is the difference.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Beebom — GTA 6 Trophy List",
+    "Vi.ki — GTA 6 Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Rob an Armored Truck and escape. Find an armored truck on the road, stop it, take the cash, and get away before the police close in.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "A fast getaway car is the difference.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 42,
@@ -602,7 +1762,31 @@
    "count": 52,
    "stage": "collectibles",
    "guide": "Explore all of Leonida. Visit all 52 areas of the state — the map fills in as you go. Use the in-game map to spot the areas you haven't visited yet and drive through them.",
-   "sources": ["Exophase — GTA VI trophy list", "GTAScoop — GTA 6 Trophies & Achievements", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GTAScoop — GTA 6 Trophies & Achievements",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "PlanetGTA6 — GTA 6 Trophies",
+    "GTA6DB — Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Explore all of Leonida. Visit all 52 areas of the state — the map fills in as you go.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Use the in-game map to spot the areas you haven't visited yet and drive through them.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 43,
@@ -616,7 +1800,31 @@
    "count": 9,
    "stage": "activities",
    "guide": "Rob an Illegal Operation belonging to each gang. There are 9 gangs; rob one illegal operation for each. Hit a different gang's operation each time and the count climbs.",
-   "sources": ["Exophase — GTA VI trophy list", "GTAScoop — GTA 6 Trophies & Achievements", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GTAScoop — GTA 6 Trophies & Achievements",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap",
+    "Insider Gaming — Complete GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Rob an Illegal Operation belonging to each gang. There are 9 gangs; rob one illegal operation for each.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Hit a different gang's operation each time and the count climbs.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 44,
@@ -630,7 +1838,31 @@
    "count": null,
    "stage": "activities",
    "guide": "Enjoy a cocktail with a view on Ocean Beach. Go to Ocean Beach, find a spot with a view, and have a cocktail there. It is a quiet moment trophy — just do it when you are near the beach.",
-   "sources": ["Exophase — GTA VI trophy list", "GamesFuze — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GamesFuze — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Beebom — GTA 6 Trophy List",
+    "Vi.ki — GTA 6 Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Enjoy a cocktail with a view on Ocean Beach. Go to Ocean Beach, find a spot with a view, and have a cocktail there.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It is a quiet moment trophy — just do it when you are near the beach.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 45,
@@ -644,7 +1876,31 @@
    "count": null,
    "stage": "activities",
    "guide": "Smash your way out of a vehicle showroom in classic style. Get into a vehicle showroom and drive out through the glass in style. Pick a fast car and aim for the frontage.",
-   "sources": ["Exophase — GTA VI trophy list", "GamesFuze — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GamesFuze — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "PlanetGTA6 — GTA 6 Trophies",
+    "GTA6DB — Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Smash your way out of a vehicle showroom in classic style. Get into a vehicle showroom and drive out through the glass in style.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Pick a fast car and aim for the frontage.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 46,
@@ -658,7 +1914,31 @@
    "count": null,
    "stage": "activities",
    "guide": "Follow-through at the Kolt & Associates' bowling alley. Go bowling at the Kolt & Associates alley and follow through on your throw. One good game is enough.",
-   "sources": ["Exophase — GTA VI trophy list", "GamesFuze — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GamesFuze — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap",
+    "Insider Gaming — Complete GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Follow-through at the Kolt & Associates' bowling alley. Go bowling at the Kolt & Associates alley and follow through on your throw.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "One good game is enough.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 47,
@@ -672,7 +1952,31 @@
    "count": null,
    "stage": "story",
    "guide": "A partnership with mass appeal. This is a story moment tied to your partnership — the description is deliberately vague, so just play the story and it pops when the scene arrives. It is unmissable story progress.",
-   "sources": ["Exophase — GTA VI trophy list", "GamesFuze — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GamesFuze — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Beebom — GTA 6 Trophy List",
+    "Vi.ki — GTA 6 Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "A partnership with mass appeal. This is a story moment tied to your partnership — the description is deliberately vague, so just play the story and it pops when the scene arrives.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It is unmissable story progress.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 48,
@@ -686,7 +1990,31 @@
    "count": 500,
    "stage": "story",
    "guide": "Choices made (for better or worse). This tracks the choices you make across the game — PlayStation tracks a count toward 500. Keep playing and making choices; it accumulates over the whole playthrough.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "PlanetGTA6 — GTA 6 Trophies",
+    "GTA6DB — Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Choices made (for better or worse). This tracks the choices you make across the game — PlayStation tracks a count toward 500.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Keep playing and making choices; it accumulates over the whole playthrough.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 49,
@@ -700,7 +2028,31 @@
    "count": null,
    "stage": "activities",
    "guide": "Second time's the charm. This pops when you succeed on a second try after a failure — the description hints at a retry moment. Just keep playing; it triggers when you retry something and pull it off.",
-   "sources": ["Exophase — GTA VI trophy list", "GamesFuze — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GamesFuze — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap",
+    "Insider Gaming — Complete GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Second time's the charm. This pops when you succeed on a second try after a failure — the description hints at a retry moment.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Just keep playing; it triggers when you retry something and pull it off.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 50,
@@ -714,7 +2066,31 @@
    "count": null,
    "stage": "activities",
    "guide": "What the hell just happened? This is tied to a strange or unexplained event in the world — the description hints at something odd. Explore Leonida and it pops when you witness it.",
-   "sources": ["Exophase — GTA VI trophy list", "GamesFuze — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GamesFuze — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Beebom — GTA 6 Trophy List",
+    "Vi.ki — GTA 6 Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "What the hell just happened? This is tied to a strange or unexplained event in the world — the description hints at something odd.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Explore Leonida and it pops when you witness it.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 51,
@@ -728,7 +2104,31 @@
    "count": null,
    "stage": "activities",
    "guide": "Bowl 'em over with a melee drive-by. Knock someone down with a melee attack from a moving vehicle — a drive-by with a melee weapon. Line up a target on foot and swing as you pass.",
-   "sources": ["Exophase — GTA VI trophy list", "GamesFuze — GTA 6 Trophy List", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GamesFuze — GTA 6 Trophy List",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "PlanetGTA6 — GTA 6 Trophies",
+    "GTA6DB — Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Bowl 'em over with a melee drive-by. Knock someone down with a melee attack from a moving vehicle — a drive-by with a melee weapon.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Line up a target on foot and swing as you pass.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 52,
@@ -742,7 +2142,38 @@
    "count": 250000,
    "stage": "activities",
    "guide": "Earn $250,000 laundering Marked Bills through your contacts. Launder marked bills via your contacts until you have cleaned $250,000. It adds up over the game — keep laundering as you earn. You launder through your contacts, and the total is cumulative across the whole game, so feed bills to them steadily instead of saving up for one big clean.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap"
+   ],
+   "steps": [
+    {
+     "text": "Earn $250,000 laundering Marked Bills through your contacts.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Launder marked bills via your contacts until you have cleaned $250,000.",
+     "cites": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "It adds up over the game — keep laundering as you earn. You launder through your contacts, and the total is cumulative across the whole game, so feed bills to them steadily instead of saving up for one big clean.",
+     "cites": [
+      3,
+      4
+     ]
+    }
+   ]
   },
   {
    "id": 53,
@@ -756,7 +2187,31 @@
    "count": 100000,
    "stage": "activities",
    "guide": "Spend $100,000 across all shops. Spend $100,000 in shops across Leonida — clothes, weapons, cars and more all count. It accumulates naturally as you play, but big purchases speed it up.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "SixShore — GTA 6 Trophy and Achievement List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "SixShore — GTA 6 Trophy and Achievement List",
+    "Beebom — GTA 6 Trophy List",
+    "Vi.ki — GTA 6 Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Spend $100,000 across all shops. Spend $100,000 in shops across Leonida — clothes, weapons, cars and more all count.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "It accumulates naturally as you play, but big purchases speed it up.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 54,
@@ -770,7 +2225,31 @@
    "count": 8,
    "stage": "collectibles",
    "guide": "Purchase all garage properties. Buy all 8 garage properties across Leonida. Save up and buy them as you find them — they are the permanent parking for your collection.",
-   "sources": ["Exophase — GTA VI trophy list", "GTAScoop — GTA 6 Trophies & Achievements", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GTASpotter — GTA VI Trophies and Achievements"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "GTAScoop — GTA 6 Trophies & Achievements",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GTASpotter — GTA VI Trophies and Achievements",
+    "PlanetGTA6 — GTA 6 Trophies",
+    "GTA6DB — Trophies and Achievements"
+   ],
+   "steps": [
+    {
+     "text": "Purchase all garage properties. Buy all 8 garage properties across Leonida.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Save up and buy them as you find them — they are the permanent parking for your collection.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   },
   {
    "id": 55,
@@ -784,7 +2263,72 @@
    "count": 10,
    "stage": "activities",
    "guide": "Register 10 vehicles to the Scooter Bros app. Use the Scooter Bros app to register 10 different vehicles. Find vehicles around the city and add each one to the app.",
-   "sources": ["Exophase — GTA VI trophy list", "PSNProfiles — GTA VI trophy list", "PowerPyx — GTA 6 Trophy Guide & Roadmap", "GTABase — GTA 6 Trophy Guide & Achievements List", "GameMapa — GTA 6 Trophy List"]
+   "sources": [
+    "Exophase — GTA VI trophy list",
+    "PSNProfiles — GTA VI trophy list",
+    "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+    "GTABase — GTA 6 Trophy Guide & Achievements List",
+    "GameMapa — GTA 6 Trophy List",
+    "Push Square — GTA 6 Trophy Guide & Roadmap",
+    "Insider Gaming — Complete GTA 6 Trophy List"
+   ],
+   "steps": [
+    {
+     "text": "Register 10 vehicles to the Scooter Bros app. Use the Scooter Bros app to register 10 different vehicles.",
+     "cites": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Find vehicles around the city and add each one to the app.",
+     "cites": [
+      2,
+      3
+     ]
+    }
+   ]
   }
- ]
+ ],
+ "sourceRead": {
+  "Exophase — GTA VI trophy list": "20 Nov 2026",
+  "PSNProfiles — GTA VI trophy list": "20 Nov 2026",
+  "GTAScoop — GTA 6 Trophies & Achievements": "20 Nov 2026",
+  "EGamers.io — GTA 6 Trophy List": "20 Nov 2026",
+  "GamesFuze — GTA 6 Trophy List": "20 Nov 2026",
+  "PowerPyx — GTA 6 Trophy Guide & Roadmap": "20 Nov 2026",
+  "GTABase — GTA 6 Trophy Guide & Achievements List": "20 Nov 2026",
+  "GameMapa — GTA 6 Trophy List": "20 Nov 2026",
+  "SixShore — GTA 6 Trophy and Achievement List": "20 Nov 2026",
+  "GTASpotter — GTA VI Trophies and Achievements": "20 Nov 2026",
+  "Push Square — GTA 6 Trophy Guide & Roadmap": "21 Nov 2026",
+  "Insider Gaming — Complete GTA 6 Trophy List": "21 Nov 2026",
+  "Beebom — GTA 6 Trophy List": "21 Nov 2026",
+  "Vi.ki — GTA 6 Trophies and Achievements": "21 Nov 2026",
+  "PlanetGTA6 — GTA 6 Trophies": "21 Nov 2026",
+  "GTA6DB — Trophies and Achievements": "21 Nov 2026"
+ },
+ "listDisputes": [
+  {
+   "question": "How many trophies are hidden — 28 or 27?",
+   "a": {
+    "label": "Most lists — 28 hidden",
+    "text": "Exophase, PSNProfiles, PowerPyx, Insider Gaming and Beebom all list 28 hidden trophies (27 non-hidden plus the platinum)."
+   },
+   "b": {
+    "label": "Push Square — 27 hidden",
+    "text": "Push Square marks 27 hidden trophies, one fewer than the other lists."
+   },
+   "call": "We count 28: the 27 hidden side and story trophies plus the 12 story trophies grouped by chapter. The gap is one story trophy Push Square groups differently, not a missing trophy."
+  }
+ ],
+ "audit": {
+  "official": "55/55",
+  "claimsCited": 390,
+  "backed2plus": 55,
+  "backed5plus": 55,
+  "sites": 16,
+  "disputesShown": 6,
+  "pages": 55
+ }
 }

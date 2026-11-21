@@ -3,6 +3,7 @@
 // types a browser needs, refuses any path outside app/, and otherwise does nothing clever: this is a development
 // convenience, not a web server for the internet.
 // Round 2 note: the guide data it serves now cites 10 sources (290 citations); the server itself is unchanged.
+// Round 3 note: the guide data it serves now cites 16 sources (390 citations); the server itself is unchanged.
 import { createReadStream, statSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { extname, join, normalize, resolve, sep } from 'node:path';
